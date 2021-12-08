@@ -11,9 +11,10 @@ public class Conexion {
         Connection conection = null;
         try {
             conection = DriverManager.getConnection("jdbc:mysql://localhost:3306/messages_app", "root", "");
-            if (conection != null) {
-                System.out.println("Connexió Exitosa ");
-            }
+//            Borrem la comprovació de la conexió a BBDD.
+//            if (conection != null) {
+//                System.out.println("Connexió Exitosa ");
+//            }
         } catch (SQLException e) {
             System.out.println(e);
             System.out.println("Error Connexió ");
