@@ -16,8 +16,8 @@ public class Main {
             System.out.println(" Messages Aplication ");
             System.out.println(" 1. Create Messages  ");
             System.out.println(" 2. Read Messages    ");
-            System.out.println(" 3. Update Messages  ");
-            System.out.println(" 4. Delete Messages  ");
+            System.out.println(" 3. Delete Messages  ");
+            System.out.println(" 4. Update Messages  ");
             System.out.println(" 5. Exit             ");
 
             option = in.nextInt();
@@ -32,11 +32,11 @@ public class Main {
                     break;
 
                 case 3:
-                    Service_Messages.updateMessage();
+                    Service_Messages.deleteMessage();
                     break;
 
                 case 4:
-                    Service_Messages.deleteMessage();
+                    Service_Messages.updateMessage();
                     break;
 
                 default:
