@@ -102,7 +102,8 @@ public class DAO_Messages {
             PreparedStatement ps = null;
 
             try {
-                String query = "UPDATE messages SET message = ? WHERE id_message = ?";
+                String query = "UPDATE messages SET message = ? "
+                        + "WHERE id_message = ?";
                 ps = conexion.prepareStatement(query);
                 ps.setString(1, message.getMessage());
                 ps.setInt(2, message.getId_message());
