@@ -45,7 +45,7 @@ public class Service_Messages {
         System.out.println("Write your new message: ");
         String message = in.nextLine();
         
-        System.out.println("Write the id_message to update:  ");
+        System.out.println("Write the id_message to update:   ");
         int id_message = in.nextInt();
         Messages updatable_message = new Messages();
         updatable_message.setId_message(id_message);
