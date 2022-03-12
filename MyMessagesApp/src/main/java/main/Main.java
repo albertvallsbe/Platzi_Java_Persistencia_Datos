@@ -19,6 +19,7 @@ public class Main {
             System.out.println(" 3. Delete Messages  ");
             System.out.println(" 4. Update Messages  ");
             System.out.println(" 5. Exit             ");
+            System.out.println("---------------------");
 
             option = in.nextInt();
 
